@@ -1,0 +1,18 @@
+#firstname, #lastname, #email, #password, #confirmPassword{
+    border-top:none!important;
+    border-left: none!important;
+    border-right: none!important;
+    box-shadow: none!important;
+    border-radius: 0px;
+}
+
+.form-control:focus{
+    border-color: #5fcfc0;
+
+}
+.form-group:focus-within label{
+    color: #5fcfc0;
+}
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    background-color: #e00d51;
+}
